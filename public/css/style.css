@@ -4,7 +4,7 @@
     --secondary: #F9F9F9;
     --primaryText: #000000;
     --secondaryText: #9C9C9C;
-    --navFont: 'Playfair Display', serif;
+    --font: 'Playfair Display', serif;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     max-height: 100vh;
     min-width: 100vw;
     background-color: var(--background);
+    font-family: var(--font);
   }
   
   a {
@@ -20,16 +21,28 @@ body {
 
 
   .navFont {
-    font-family: var(--navFont);
+    font-family: var(--font);
     
   }
 
   #jumbotron {
     min-width: 100vw;
-    background-color: var(--primary);
-    height: 25rem;
+    /* background-color: var(--primary); */
+    height: 730px;
     font-family: var(--navFont);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  }
+
+  #jumbotronText {
+    margin-top: 250px;
+  }
+
+  #jumboFirstLine {
+    font-size: 27px;
+  }
+
+  #jumboSecondLine {
+    font-size: 74px;
   }
 
   .blank {
