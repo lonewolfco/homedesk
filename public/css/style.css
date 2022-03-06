@@ -1,0 +1,54 @@
+:root {
+    --background: #F4F4F4;
+    --primary: #000000;
+    --secondary: #F9F9F9;
+    --primaryText: #000000;
+    --secondaryText: #9C9C9C;
+    --navFont: 'Playfair Display', serif;
+}
+
+body {
+    margin: 0;
+    max-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--background);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+  .navFont {
+    font-family: var(--navFont);
+  }
+
+  #jumbotron {
+    min-width: 100vw;
+    background-color: #000000e7;
+    height: 17rem;
+  }
+
+  /* scroll up button */
+  #scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 7.2rem;
+    right: 1.7rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #343a40;
+    border: solid 1px #343a40;
+    text-align: center;
+    background: #fff;
+    font-size: 0.8rem;
+    z-index: 999;
+    cursor: pointer;
+    transition: border-color, color, background-color, bottom 0.5s ease-out;
+  }
+  
+  #scrollTop:hover {
+    font-weight: bolder;
+    text-shadow: var(--text-shadow);
+  }
