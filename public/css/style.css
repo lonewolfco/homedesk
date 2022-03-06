@@ -1,6 +1,6 @@
 :root {
-    --background: #F4F4F4;
-    --primary: #000000;
+    --background: #e6e4e4;
+    --primary: #0A0A0A;
     --secondary: #F9F9F9;
     --primaryText: #000000;
     --secondaryText: #9C9C9C;
@@ -21,19 +21,26 @@ body {
 
   .navFont {
     font-family: var(--navFont);
+    
   }
 
   #jumbotron {
     min-width: 100vw;
-    background-color: #000000e7;
-    height: 17rem;
+    background-color: var(--primary);
+    height: 25rem;
+    font-family: var(--navFont);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .blank {
+    height: 45rem;
   }
 
   /* scroll up button */
   #scrollTop {
     display: none;
     position: fixed;
-    bottom: 7.2rem;
+    bottom: 5rem;
     right: 1.7rem;
     width: 40px;
     height: 40px;
